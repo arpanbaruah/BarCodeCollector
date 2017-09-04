@@ -13,6 +13,8 @@
 		EE4EF13E1F58C671005BFDBE /* BarCodeCollector.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EE4EF13C1F58C671005BFDBE /* BarCodeCollector.xcdatamodeld */; };
 		EE4EF1401F58C671005BFDBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE4EF13F1F58C671005BFDBE /* Assets.xcassets */; };
 		EE4EF1431F58C671005BFDBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE4EF1411F58C671005BFDBE /* LaunchScreen.storyboard */; };
+		EE4EF1531F5B4404005BFDBE /* AddImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4EF1521F5B4404005BFDBE /* AddImageViewController.swift */; };
+		EE4EF1571F5C8E6F005BFDBE /* USMap.png in Resources */ = {isa = PBXBuildFile; fileRef = EE4EF1561F5C8E6F005BFDBE /* USMap.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		EE4EF13F1F58C671005BFDBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE4EF1421F58C671005BFDBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE4EF1441F58C671005BFDBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE4EF1521F5B4404005BFDBE /* AddImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddImageViewController.swift; sourceTree = "<group>"; };
+		EE4EF1561F5C8E6F005BFDBE /* USMap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = USMap.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +62,10 @@
 			children = (
 				EE4EF1351F58C671005BFDBE /* AppDelegate.swift */,
 				EE4EF1371F58C671005BFDBE /* ViewController.swift */,
+				EE4EF1521F5B4404005BFDBE /* AddImageViewController.swift */,
 				EE4EF1391F58C671005BFDBE /* Main.storyboard */,
 				EE4EF13F1F58C671005BFDBE /* Assets.xcassets */,
+				EE4EF1561F5C8E6F005BFDBE /* USMap.png */,
 				EE4EF1411F58C671005BFDBE /* LaunchScreen.storyboard */,
 				EE4EF1441F58C671005BFDBE /* Info.plist */,
 				EE4EF13C1F58C671005BFDBE /* BarCodeCollector.xcdatamodeld */,
@@ -99,6 +105,7 @@
 				TargetAttributes = {
 					EE4EF1311F58C671005BFDBE = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 6AHBEHWJ65;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -128,6 +135,7 @@
 			files = (
 				EE4EF1431F58C671005BFDBE /* LaunchScreen.storyboard in Resources */,
 				EE4EF1401F58C671005BFDBE /* Assets.xcassets in Resources */,
+				EE4EF1571F5C8E6F005BFDBE /* USMap.png in Resources */,
 				EE4EF13B1F58C671005BFDBE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,6 +149,7 @@
 			files = (
 				EE4EF1381F58C671005BFDBE /* ViewController.swift in Sources */,
 				EE4EF1361F58C671005BFDBE /* AppDelegate.swift in Sources */,
+				EE4EF1531F5B4404005BFDBE /* AddImageViewController.swift in Sources */,
 				EE4EF13E1F58C671005BFDBE /* BarCodeCollector.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,6 +275,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6AHBEHWJ65;
 				INFOPLIST_FILE = BarCodeCollector/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = dunariworks.BarCodeCollector;
@@ -278,6 +288,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6AHBEHWJ65;
 				INFOPLIST_FILE = BarCodeCollector/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = dunariworks.BarCodeCollector;
@@ -305,6 +316,7 @@
 				EE4EF1491F58C671005BFDBE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
